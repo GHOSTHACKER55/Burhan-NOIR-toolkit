@@ -73,6 +73,7 @@ input{
 .tools{display:none}
 footer{ margin-top:14px; font-size:11px; opacity:.7; }
 .search{ margin:12px 0; border: 1px solid #0ff; }
+.wa-btn { background: #004444; border: 1px solid #0ff; }
 </style>
 </head>
 <body>
@@ -80,12 +81,12 @@ footer{ margin-top:14px; font-size:11px; opacity:.7; }
 
 <div class="card" id="login">
     <h1>BURHAN NOIR</h1>
-    <p>Enter Password to Access Toolkit</p>
-    <input type="password" id="pass" placeholder="Enter password">
-    <button class="btn" onclick="check()">Access Toolkit</button>
-    <a class="btn" href="https://chat.whatsapp.com/HVM9Spvm7HVGLERj8yo9kS" target="_blank">Join WhatsApp Group</a>
-    <a class="btn" href="https://whatsapp.com/channel/0029Vb6YHYNFSAt4222Nl51I" target="_blank">Join WhatsApp Channel</a>
-    <footer>Developed by Burhan Noir</footer>
+    <p>System Credentials Required</p>
+    <input type="password" id="pass" placeholder="PASSWORD: noir">
+    <button class="btn" onclick="check()">ACCESS TOOLKIT</button>
+    <a class="btn wa-btn" href="https://chat.whatsapp.com/HVM9Spvm7HVGLERj8yo9kS" target="_blank">JOIN WHATSAPP GROUP</a>
+    <a class="btn wa-btn" href="https://whatsapp.com/channel/0029Vb6YHYNFSAt4222Nl51I" target="_blank">JOIN WHATSAPP CHANNEL</a>
+    <footer>DEVELOPED BY BURHAN NOIR</footer>
 </div>
 
 <div class="card tools" id="tools">
@@ -93,6 +94,9 @@ footer{ margin-top:14px; font-size:11px; opacity:.7; }
     <input class="search" type="text" id="search" placeholder="Search system..." onkeyup="filterTools()">
 
     <div id="toolList">
+        <a class="btn wa-btn" href="https://chat.whatsapp.com/HVM9Spvm7HVGLERj8yo9kS" target="_blank">JOIN WHATSAPP GROUP</a>
+        <a class="btn wa-btn" href="https://whatsapp.com/channel/0029Vb6YHYNFSAt4222Nl51I" target="_blank">JOIN WHATSAPP CHANNEL</a>
+        
         <a class="btn" href="https://www.mediafire.com/file/sf4ofovb2t7apvc/MOBILE_PHONE_PTA_APPROVED_METHOD_FREE_RELEASE_BY_PROXARMY.zip/file" target="_blank">Noir Non-PTA Method</a>
         <a class="btn" href="https://qr-code-generator-by-ghosty.vercel.app/" target="_blank">Noir QR Code</a>
         <a class="btn" href="https://stylish-name-generator-by-ghosty.vercel.app/" target="_blank">Noir Stylish Name</a>
@@ -197,30 +201,25 @@ footer{ margin-top:14px; font-size:11px; opacity:.7; }
         <a class="btn" href="https://www.mediafire.com/file/fedpj1p5ialdxyo/XSUIT_FILE.zip/file" target="_blank">FREE FIRE PANEL</a>
         <a class="btn" href="https://www.mediafire.com/file/umfe4yn2872l5b5/FREE_EMOTES_FILE.7z/file" target="_blank">PUBG MOBILE EMOTES FILE</a>
         <a class="btn" href="https://www.mediafire.com/file/y78pzecdr5bmj7y/Pubg_Hack_Making_Course.rar/file" target="_blank">PUBG HACK MAKING COURSE</a>
-        <a class="btn" href="https://whatsapp.com/channel/0029Vb6YHYNFSAt4222Nl51I" target="_blank">ALL MEDIA BAN/UNBAN APK</a>
         <a class="btn" href="https://www.mediafire.com/file/8zukotshbjnfpk0/ALL_COUNTRY_FAKE_NUM.zip/file" target="_blank">ALL COUNTRIES FAKE NUMBERS METHOD</a>
         <a class="btn" href="https://drive.google.com/file/d/1b4NcDgm3L2Qob2aBP7JpTfnOPDvrGZG4/view" target="_blank">+1 FAKE NUMBER METHOD</a>
         <a class="btn" href="https://t.me/Nun_SMSBOT?start=7325214936" target="_blank">FAKE NUMBERS BOT</a>
         <a class="btn" href="https://www.mediafire.com/file/dyiyl8h23mo8s5p/Carding_complete_guideline.pdf/file" target="_blank">CARDING COMPLETE GUIDELINE</a>
+        <a class="btn" href="https://www.mediafire.com/file/uoiimanlu0v2zfh/Youtube_Watch_Time_Views.apk/file" target="_blank">YOUTUBE WATCHTIME AND VIEWS</a>
+        <a class="btn" href="https://smallshorts.com/0tBO94G" target="_blank">TEXT TO VIDEO AI MOD APK</a>
+        <a class="btn" href="https://www.mediafire.com/file/4mal5k4hc62nc91/Funsta_3.5.3.apk/file" target="_blank">CREATE FAKE INSTAGRAM</a>
+        <a class="btn" href="https://smallshorts.com/mbkgd" target="_blank">UNLIMITED TELEGRAM/WA ACCOUNT</a>
+        <a class="btn" href="https://t.me/Abuzarsbot" target="_blank">TELEGRAM BOT 2</a>
+        <a class="btn" href="https://king-site.vercel.app/" target="_blank">ALL IN ONE TOOLS</a>
+    </div>
 
-    <footer>© DEVELOP BY GHOSTY</footer>
+    <footer>© BURHAN NOIR NETWORK</footer>
 </div>
-
-<audio id="clickSound">
-<source src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3" type="audio/mpeg">
-</audio>
 
 <script>
 const PASSWORD="noir";
 
-function clickFx(){
-    const s = document.getElementById("clickSound");
-    s.currentTime = 0;
-    s.play().catch(()=>{});
-}
-
 function check(){
-    clickFx();
     if(document.getElementById("pass").value===PASSWORD){
         document.getElementById("login").style.display="none";
         document.getElementById("tools").style.display="block";
