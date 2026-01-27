@@ -28,7 +28,8 @@ body{
 .card{
     width:95%;
     max-width:440px;
-    background:rgba(0,0,0,.75);    border-radius:20px;
+    background:rgba(0,0,0,.75);
+    border-radius:20px;
     padding:22px;
     box-shadow:0 0 35px #00ffff;
     text-align:center;
@@ -52,16 +53,16 @@ input{
 }
 .btn{
     width:100%;
-    padding:22px;
+    padding:20px;
     margin-top:16px;
     border:none;
     border-radius:18px;
     background:#000;
     color:#0ff;
-    font-size:16px;
+    font-size:15px;
     font-weight: 700;
     cursor:pointer;
-    box-shadow:0 0 18px #00ffff;
+    box-shadow:0 0 15px #00ffff;
     transition:.25s;
     display:block;
     text-decoration:none;
@@ -71,7 +72,7 @@ input{
 .btn:hover{ background:#00ffff; color:#000; transform:scale(1.03); }
 .tools{display:none}
 footer{ margin-top:14px; font-size:11px; opacity:.7; }
-.search{ margin:12px 0; }
+.search{ margin:12px 0; border: 1px solid #0ff; }
 </style>
 </head>
 <body>
@@ -82,6 +83,8 @@ footer{ margin-top:14px; font-size:11px; opacity:.7; }
     <p>Enter Password to Access Toolkit</p>
     <input type="password" id="pass" placeholder="Enter password">
     <button class="btn" onclick="check()">Access Toolkit</button>
+    <a class="btn" href="https://chat.whatsapp.com/HVM9Spvm7HVGLERj8yo9kS" target="_blank">Join WhatsApp Group</a>
+    <a class="btn" href="https://whatsapp.com/channel/0029Vb6YHYNFSAt4222Nl51I" target="_blank">Join WhatsApp Channel</a>
     <footer>Developed by Burhan Noir</footer>
 </div>
 
@@ -90,132 +93,117 @@ footer{ margin-top:14px; font-size:11px; opacity:.7; }
     <input class="search" type="text" id="search" placeholder="Search system..." onkeyup="filterTools()">
 
     <div id="toolList">
-        <a class="btn" onclick="clickFx()" href="https://chat.whatsapp.com/HVM9Spvm7HVGLERj8yo9kS" target="_blank">JOIN WHATSAPP GROUP</a>
-        <a class="btn" onclick="clickFx()" href="https://whatsapp.com/channel/0029VbCIDRyLSmbVwRsohX2X" target="_blank">JOIN WHATSAPP CHANNEL</a>
-        
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/sf4ofovb2t7apvc/MOBILE_PHONE_PTA_APPROVED_METHOD_FREE_RELEASE_BY_PROXARMY.zip/file" target="_blank">Noir Non-PTA Method</a>
-        <a class="btn" onclick="clickFx()" href="https://qr-code-generator-by-ghosty.vercel.app/" target="_blank">Noir QR Code</a>
-        <a class="btn" onclick="clickFx()" href="https://stylish-name-generator-by-ghosty.vercel.app/" target="_blank">Noir Stylish Name</a>
-        <a class="btn" onclick="clickFx()" href="https://link-shortner-by-ghosty.vercel.app/" target="_blank">Noir Link Shortener</a>
-        <a class="btn" onclick="clickFx()" href="https://temp-mail-by-ghosty.vercel.app/" target="_blank">Noir Temp Mail</a>
-        <a class="btn" onclick="clickFx()" href="https://tiktok-video-downloader-by-ghosty.vercel.app/" target="_blank">Noir TikTok Downloader</a>
-        <a class="btn" onclick="clickFx()" href="https://sms-bomber-by-ghosty.vercel.app/" target="_blank">Noir SMS Bomber</a>
-        <a class="btn" onclick="clickFx()" href="https://yt-thumbnail-downloader-by-ghosty.vercel.app/" target="_blank">Noir YT Thumbnail</a>
-        <a class="btn" onclick="clickFx()" href="https://html-deobfucator-by-ghosty.vercel.app/" target="_blank">Noir Deobfuscator</a>
-        <a class="btn" onclick="clickFx()" href="https://ghosty-url-safety-checker.vercel.app/" target="_blank">Noir Safety Checker</a>
-        <a class="btn" onclick="clickFx()" href="https://age-calculator-by-ghosty.vercel.app/" target="_blank">Noir Age Calculator</a>
-        <a class="btn" onclick="clickFx()" href="https://lucky-name-checker-by-ghosty.vercel.app/" target="_blank">Noir Lucky Name</a>
-        <a class="btn" onclick="clickFx()" href="https://ghosty-device-security-scanner.vercel.app/" target="_blank">Noir Device Scanner</a>
-        <a class="btn" onclick="clickFx()" href="https://fake-screen-shot-detector-by-ghosty.vercel.app/" target="_blank">Noir Screenshot Detector</a>
-        <a class="btn" onclick="clickFx()" href="https://whats-app-chat-link-generater-by-gh.vercel.app/" target="_blank">Noir WA Link Gen</a>
-        <a class="btn" onclick="clickFx()" href="https://whatsapp-unban-tool-by-ghosty-and-m.vercel.app/" target="_blank">Noir WA Unban Tool</a>
-        <a class="btn" onclick="clickFx()" href="https://mobile-hacking-screen-by-ghosty.vercel.app/" target="_blank">Noir Hacking Screen</a>
-        <a class="btn" onclick="clickFx()" href="https://ghosty-network-speed-test.vercel.app/" target="_blank">Noir Speed Test</a>
-        <a class="btn" onclick="clickFx()" href="https://password-strength-checker-by-ghosty.vercel.app/" target="_blank">Noir Pass Strength</a>
-        <a class="btn" onclick="clickFx()" href="https://website-security-checker-by-ghosty.vercel.app/" target="_blank">Noir Web Security</a>
-        <a class="btn" onclick="clickFx()" href="https://text-to-pdf-by-ghosty.vercel.app/" target="_blank">Noir Text to PDF</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/1nhthm5kt7wg0es/Remini_3.7.1020.202514479.apk/file" target="_blank">Noir Remini Mod</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/u/0/mobile/folders/1pFgRX0pmSTyUoqmOsoo_-Gw-3HRUOAqC" target="_blank">Noir CapCut Pro</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/bjgg3kx4s06y3m5/PICSART_PRO_BY_DARK_LEGEND.apk/file" target="_blank">Noir Picsart Pro</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/9bdrtv6g6mtmjoz/ChatGPT+Premium_1.0.11.apk/file" target="_blank">Noir ChatGPT Premium</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/7yl30aq4hs6imve/%25F0%259D%2591%25B4%25F0%259D%2591%25B8%25F0%259D%2591%25B0%25F0%259D%2591%25B8%25F0%259D%2590%25B4%25F0%259D%2591%25B0%25F0%259D%2591%25B1%25F0%259D%2591%25B4%25F0%259D%2590%25B4%25F0%259D%2591%25B7%25F0%259D%2591%25B0%25F0%259D%2591%25B5%25F0%259D%2591%25B1_2.25.15.80.apk/file" target="_blank">Noir WhatsApp Premium</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/ep8skhavdtp9c7m/Youtube_5.3.80.132.apk/file" target="_blank">Noir YouTube Premium</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/zt6abyx9g9n1n0x/Netflix_v9.10.1_%2528Premium%2529_by_Abuzar.apk/file" target="_blank">Noir Netflix Premium</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/m4jyh9lk4fbgndu/Wink_2.13.0.apk/file" target="_blank">Noir Wink Premium</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/jiyv52a343qmbtj/InShot_2.152.1504.apk/file" target="_blank">Noir InShot Premium</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/7v8ayo7qcito16u/CRICFy+TV_5.0.apk/file" target="_blank">Noir Cricfy TV</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/4x3h0l3zsm4zfwf/TIKTOK_LIVE_APK_BY_DARK_LEGEND_333.apk/file" target="_blank">Noir TikTok Live</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/ot5bnotwy9fqebq/mobile_lock_virus_BY_PRO_X_HACKER.zip/file" target="_blank">Noir Lock Virus 1</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/lfh03ky59m2nr7e/OlivR+Wa_Don't_install_ftgm.apk/file" target="_blank">Noir Lock Virus 2</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/folders/1579kmWC3_ufJuVeAGKgYM_VTVwL8J2Ky" target="_blank">Noir Lock Virus 3</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/gwge84zllnn13w/Android_reset_.7z/file" target="_blank">Noir Mobile Reset</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/ua3grks0dz5h0hh/gallery_crash.zip/file" target="_blank">Noir Gallery Crash</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/g1vr6955y2ve4g6/WiFi-Hacker_%25284%2529.apk/file" target="_blank">Noir Data Reset</a>
-        <a class="btn" onclick="clickFx()" href="https://volumeshaderbm.com" target="_blank">Noir Phone Crash Link</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/k0ugrztyqh5z42k/PHONE+CRASH+PROOF+BY+SIGMA+TECH.mp4.7z/file" target="_blank">Noir Phone Crash MP4</a>
-        <a class="btn" onclick="clickFx()" href="https://tajammaltm.news/TM.html" target="_blank">Noir System Crash</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/bcmddy9r7onqutd/N3tfl%2521x_premium_by_%2540zerox.apk/file" target="_blank">NETFLIX PREMIUM (ALT)</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/0870qd38lw6j54w/Instagram_Hack.7z/file" target="_blank">HACK INSTA ACCOUNT</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/folders/1N_S5B31SDdNd7tZ25YBNwrJdL4AnlK4g" target="_blank">LIVE LOCATION HACK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/folder/r01749bcfuygl/Track+Mobile" target="_blank">TRACE ANY MOBILE</a>
-        <a class="btn" onclick="clickFx()" href="https://dupload.net/tec57wind8s0" target="_blank">CHATGPT PREMIUM (LINK 2)</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/rlwuwg5th605i39/FAKE_SMS.file" target="_blank">FAKE SMS GENERATOR</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/d4zsedauucyi947/Mask_%2526_Cloth_Remover.apk/file" target="_blank">CLOTHES & MASK REMOVER</a>
-        <a class="btn" onclick="clickFx()" href="https://t.me/zeroxofc_bot" target="_blank">WHATSAPP UNBAN MAIL BOT</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/f9pziak22eonjrm/Trace_Location.zip/file" target="_blank">TRACE LOCATION</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/folder/kxznkgynq4fap/Fb+Ban+Method" target="_blank">FACEBOOK BAN</a>
-        <a class="btn" onclick="clickFx()" href="https://fb-tool-drab.vercel.app/" target="_blank">FACEBOOK REPORTS SENDER</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/7o170c2ekmfdh2v/UNLIMITED_GMAIL_METHOD.zip/file" target="_blank">MAKE UNLIMITED GMAILS</a>
-        <a class="btn" onclick="clickFx()" href="https://zerox-courses.blogspot.com/2025/07/chatgpt-plus-method.html" target="_blank">CHATGPT PLUS FREE</a>
-        <a class="btn" onclick="clickFx()" href="https://tex-to-video.vercel.app/" target="_blank">TEXT TO VIDEO GEN AI</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/kkk6l40duq1sxg3/WhatsApp_1.0.apk/file" target="_blank">PHONE DEAD VIRUS APK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/folder/smcniqg480w0c/" target="_blank">WHATSAPP BAN METHOD</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/folder/or9jgu4qjg2de/whatsapp+chat" target="_blank">WHATSAPP FAKE CHAT</a>
-        <a class="btn" onclick="clickFx()" href="https://gplinks.co/ahyxz" target="_blank">WHATSAPP HACK METHOD 1</a>
-        <a class="btn" onclick="clickFx()" href="https://gplinks.co/HwkB88U" target="_blank">WHATSAPP HACK METHOD 2</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/u/0/mobile/folders/1niW65YXmMfW87OMhOn9VNv0MMbl8mQRB" target="_blank">UNLIMITED GMAILS NEW METHOD</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/file/d/1XUfR8LP8MPkBp5Kr1dOaHMpIKnryzEat/view" target="_blank">TIKTOK FORYOU TRICK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/vcu91tvwxpg31dd/TIKTOK_LIVE_BY_ABUZAR.apk/file" target="_blank">TIKTOK LIVE APK (ALT)</a>
-        <a class="btn" onclick="clickFx()" href="https://tik-tok-description-generator.vercel.app/" target="_blank">TIKTOK HASHTAG GENERATOR</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/file/d/1W_pCmK-I-OphhQOSA9cNpEI8JRioWIE5/view" target="_blank">CREATE UNLIMITED TIKTOK ACCOUNTS</a>
-        <a class="btn" onclick="clickFx()" href="https://zefoy.com/" target="_blank">TIKTOK FREE LIKES VIEWS</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/hpme6oulwr5c7dc/TIKTOK_BAN.zip/file" target="_blank">TIKTOK BAN METHOD</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/itsx8yqg2yvozez/Dragon_Tiger_Predict.apk/file" target="_blank">TEEN PATTI HACK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/folder/x5n954j8z90lm/All+Games+Hack" target="_blank">ALL EARNING GAMES HACK</a>
-        <a class="btn" onclick="clickFx()" href="https://ccgen-omega.vercel.app/" target="_blank">CC GENERATOR SITE</a>
-        <a class="btn" onclick="clickFx()" href="https://a-new-free-bot-50d087d2d65f.herokuapp.com/" target="_blank">FREE WHATSAPP BOT</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/folders/178fzkAsc081AiZD28XD6gfsgW3A_qV98" target="_blank">+48 NUMBERS TRICK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/folder/8u922zsj9ms5p/Unlimited+Snapchat+score" target="_blank">UNLIMITED SNAPSCORE METHOD</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/du9tybq34i3pbgp/.7z/file" target="_blank">PHONE HACK RAT</a>
-        <a class="btn" onclick="clickFx()" href="https://f4ktools.store/tool/login" target="_blank">UNBAN TOOL</a>
-        <a class="btn" onclick="clickFx()" href="https://ai-logo-delta.vercel.app/" target="_blank">AI LOGO GENERATOR SITE</a>
-        <a class="btn" onclick="clickFx()" href="https://teenpatti-hack-gray.vercel.app/" target="_blank">TEEN PATTI HACK WEB</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/ajp87wcx2tvez4e/FREE_CALL_APP.apk/file" target="_blank">FREE CALL APK</a>
-        <a class="btn" onclick="clickFx()" href="https://jarmod.com/" target="_blank">ALL PREMIUM APPS</a>
-        <a class="btn" onclick="clickFx()" href="https://prem-apks.vercel.app/" target="_blank">PREMIUM APK'S SITE</a>
-        <a class="btn" onclick="clickFx()" href="https://bug-files-site.vercel.app/" target="_blank">BUG BOT FILES FOR PANEL</a>
-        <a class="btn" onclick="clickFx()" href="https://courses-ai-nine.vercel.app/" target="_blank">PREMIUM COURSES SITE</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/uqls9a26bdvvbuz/Digital_Products_Bundle.pdf/file" target="_blank">2000+ DIGITAL PRODUCTS BUNDLE</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/folder/xhenh4efgw6t7/800+Corse" target="_blank">800+ PREMIUM COURSES</a>
-        <a class="btn" onclick="clickFx()" href="https://zerox-courses.blogspot.com/2025/07/trading-course.html" target="_blank">TRADING COURSE</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/u/0/mobile/folders/1aUze8xOOZle-vB43eaZAqthORM24LYzI" target="_blank">CARDING COURSES</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/folders/1yR5oL00yzr83QzHL5CVAztnpeQCW4Iyo" target="_blank">PASSWORD CRACKING COURSE</a>
-        <a class="btn" onclick="clickFx()" href="https://officialzerox.blogspot.com/2025/07/premium-accounts-cracking-course.html" target="_blank">PREMIUM ACCOUNTS CRACKING COURSE</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/folders/1zD-JrP4sgIlAedjaLxAMdg_4ArF9IYyN" target="_blank">ETHICAL HACKING COURSE</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/folder/372e5n0e7f3nk/Network_Hacking" target="_blank">NETWORK HACKING COURSE</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/file/d/1UXIauIgH_rrYMJIcdo1igOTZvioFhNCL/view" target="_blank">ANDROID HACKING</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/folders/1ycC5W6bT2anWli1RYARcw0KhvLuWQp6A" target="_blank">WEBSITE HACKING COURSE</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/folders/1ZU99WiLZMt0XTJw6uIpPOmMu02bem5J9" target="_blank">WI-FI HACKING COURSE</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/drive/folders/1nvszaXdcUxFwrhEWSqxlo21pdT8dII1w" target="_blank">WHATSAPP HACKING</a>
-        <a class="btn" onclick="clickFx()" href="https://officialzerox.blogspot.com/" target="_blank">GET DAILY FREE COURSES, TOOLS</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/file/d/179ygjrGTb1FKd-G3sKbTGeiD4UVyc8to/view" target="_blank">FACEBOOK WATCH TIME METHOD</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/uprld7kdv72p003/Unlock_Android_ADB.mp4/file" target="_blank">UNLOCK LOCKSCREEN OF ANDROID</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/m5elnssx6cft6ij/PAID_Wi-Fi_HACK.zip/file" target="_blank">WIFI HACK (PAID)</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/4eobtvyo8qqfcmy/EasyPaisa_to_All_bank.apk/file" target="_blank">FAKE EASY PAISA SS</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/folder/h179c5sg8yeaf/Perma_Unban_Apk" target="_blank">PERMA WHATSAPP UNBAN APK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/i9rb75gcz23a824/Telegram_Hack.7z/file" target="_blank">TELEGRAM HACK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/ifxvks1slvqfgj8/LIVE_SCREEN_HACK.zip/file" target="_blank">LIVE SCREEN HACK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file_premium/vfsmk9dnxvbwneg/See_private.apk/file" target="_blank">SEE PRIVATE INSTAGRAM</a>
-        <a class="btn" onclick="clickFx()" href="https://youtube.com/shorts/m5-0ilSNP1U" target="_blank">WHATSAPP FAKE REACTS</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/x5rl62lab695l5k/SPOTIFY_PREMIUM.apk/file" target="_blank">SPOTIFY PREMIUM</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/fedpj1p5ialdxyo/XSUIT_FILE.zip/file" target="_blank">FREE FIRE PANEL</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/umfe4yn2872l5b5/FREE_EMOTES_FILE.7z/file" target="_blank">PUBG MOBILE EMOTES FILE</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/y78pzecdr5bmj7y/Pubg_Hack_Making_Course.rar/file" target="_blank">PUBG HACK MAKING COURSE</a>
-        <a class="btn" onclick="clickFx()" href="https://whatsapp.com/channel/0029Vb6YHYNFSAt4222Nl51I" target="_blank">ALL MEDIA BAN/UNBAN APK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/8zukotshbjnfpk0/ALL_COUNTRY_FAKE_NUM.zip/file" target="_blank">ALL COUNTRIES FAKE NUMBERS METHOD</a>
-        <a class="btn" onclick="clickFx()" href="https://drive.google.com/file/d/1b4NcDgm3L2Qob2aBP7JpTfnOPDvrGZG4/view" target="_blank">+1 FAKE NUMBER METHOD</a>
-        <a class="btn" onclick="clickFx()" href="https://t.me/Nun_SMSBOT?start=7325214936" target="_blank">FAKE NUMBERS BOT</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/dyiyl8h23mo8s5p/Carding_complete_guideline.pdf/file" target="_blank">CARDING COMPLETE GUIDELINE</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/uoiimanlu0v2zfh/Youtube_Watch_Time_Views.apk/file" target="_blank">YOUTUBE WATCHTIME AND VIEWS</a>
-        <a class="btn" onclick="clickFx()" href="https://smallshorts.com/0tBO94G" target="_blank">TEXT TO VIDEO AI MOD APK</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/wp38tvufsj3988j/UNLIMITED_CALL_METHOD.zip/file" target="_blank">CALL WITHOUT NUMBER</a>
-        <a class="btn" onclick="clickFx()" href="https://www.mediafire.com/file/4mal5k4hc62nc91/Funsta_3.5.3.apk/file" target="_blank">CREATE FAKE INSTAGRAM</a>
-        <a class="btn" onclick="clickFx()" href="https://smallshorts.com/mbkgd" target="_blank">UNLIMITED TELEGRAM/WA ACCOUNT</a>
-        <a class="btn" onclick="clickFx()" href="https://t.me/Abuzarsbot" target="_blank">TELEGRAM BOT 2</a>
-        <a class="btn" onclick="clickFx()" href="https://king-site.vercel.app/" target="_blank">ALL IN ONE TOOLS</a>
-    </div>
+        <a class="btn" href="https://www.mediafire.com/file/sf4ofovb2t7apvc/MOBILE_PHONE_PTA_APPROVED_METHOD_FREE_RELEASE_BY_PROXARMY.zip/file" target="_blank">Noir Non-PTA Method</a>
+        <a class="btn" href="https://qr-code-generator-by-ghosty.vercel.app/" target="_blank">Noir QR Code</a>
+        <a class="btn" href="https://stylish-name-generator-by-ghosty.vercel.app/" target="_blank">Noir Stylish Name</a>
+        <a class="btn" href="https://link-shortner-by-ghosty.vercel.app/" target="_blank">Noir Link Shortener</a>
+        <a class="btn" href="https://temp-mail-by-ghosty.vercel.app/" target="_blank">Noir Temp Mail</a>
+        <a class="btn" href="https://tiktok-video-downloader-by-ghosty.vercel.app/" target="_blank">Noir TikTok Downloader</a>
+        <a class="btn" href="https://sms-bomber-by-ghosty.vercel.app/" target="_blank">Noir SMS Bomber</a>
+        <a class="btn" href="https://yt-thumbnail-downloader-by-ghosty.vercel.app/" target="_blank">Noir YT Thumbnail</a>
+        <a class="btn" href="https://html-deobfucator-by-ghosty.vercel.app/" target="_blank">Noir Deobfuscator</a>
+        <a class="btn" href="https://ghosty-url-safety-checker.vercel.app/" target="_blank">Noir Safety Checker</a>
+        <a class="btn" href="https://age-calculator-by-ghosty.vercel.app/" target="_blank">Noir Age Calculator</a>
+        <a class="btn" href="https://lucky-name-checker-by-ghosty.vercel.app/" target="_blank">Noir Lucky Name</a>
+        <a class="btn" href="https://ghosty-device-security-scanner.vercel.app/" target="_blank">Noir Device Scanner</a>
+        <a class="btn" href="https://fake-screen-shot-detector-by-ghosty.vercel.app/" target="_blank">Noir Screenshot Detector</a>
+        <a class="btn" href="https://whats-app-chat-link-generater-by-gh.vercel.app/" target="_blank">Noir WA Link Gen</a>
+        <a class="btn" href="https://whatsapp-unban-tool-by-ghosty-and-m.vercel.app/" target="_blank">Noir WA Unban Tool</a>
+        <a class="btn" href="https://mobile-hacking-screen-by-ghosty.vercel.app/" target="_blank">Noir Hacking Screen</a>
+        <a class="btn" href="https://ghosty-network-speed-test.vercel.app/" target="_blank">Noir Speed Test</a>
+        <a class="btn" href="https://password-strength-checker-by-ghosty.vercel.app/" target="_blank">Noir Pass Strength</a>
+        <a class="btn" href="https://website-security-checker-by-ghosty.vercel.app/" target="_blank">Noir Web Security</a>
+        <a class="btn" href="https://text-to-pdf-by-ghosty.vercel.app/" target="_blank">Noir Text to PDF</a>
+        <a class="btn" href="https://www.mediafire.com/file/1nhthm5kt7wg0es/Remini_3.7.1020.202514479.apk/file" target="_blank">Noir Remini Mod</a>
+        <a class="btn" href="https://drive.google.com/drive/u/0/mobile/folders/1pFgRX0pmSTyUoqmOsoo_-Gw-3HRUOAqC" target="_blank">Noir CapCut Pro</a>
+        <a class="btn" href="https://www.mediafire.com/file/bjgg3kx4s06y3m5/PICSART_PRO_BY_DARK_LEGEND.apk/file" target="_blank">Noir Picsart Pro</a>
+        <a class="btn" href="https://www.mediafire.com/file/9bdrtv6g6mtmjoz/ChatGPT+Premium_1.0.11.apk/file" target="_blank">Noir ChatGPT Premium</a>
+        <a class="btn" href="https://www.mediafire.com/file/7yl30aq4hs6imve/%25F0%259D%2591%25B4%25F0%259D%2591%25B8%25F0%259D%2591%25B0%25F0%259D%2591%25B8%25F0%259D%2590%25B4%25F0%259D%2591%25B0%25F0%259D%2591%25B1%25F0%259D%2591%25B4%25F0%259D%2590%25B4%25F0%259D%2591%25B7%25F0%259D%2591%25B0%25F0%259D%2591%25B5%25F0%259D%2591%25B1_2.25.15.80.apk/file" target="_blank">Noir WhatsApp Premium</a>
+        <a class="btn" href="https://www.mediafire.com/file/ep8skhavdtp9c7m/Youtube_5.3.80.132.apk/file" target="_blank">Noir YouTube Premium</a>
+        <a class="btn" href="https://www.mediafire.com/file/zt6abyx9g9n1n0x/Netflix_v9.10.1_%2528Premium%2529_by_Abuzar.apk/file" target="_blank">Noir Netflix Premium</a>
+        <a class="btn" href="https://www.mediafire.com/file/m4jyh9lk4fbgndu/Wink_2.13.0.apk/file" target="_blank">Noir Wink Premium</a>
+        <a class="btn" href="https://www.mediafire.com/file/jiyv52a343qmbtj/InShot_2.152.1504.apk/file" target="_blank">Noir InShot Premium</a>
+        <a class="btn" href="https://www.mediafire.com/file/7v8ayo7qcito16u/CRICFy+TV_5.0.apk/file" target="_blank">Noir Cricfy TV</a>
+        <a class="btn" href="https://www.mediafire.com/file/4x3h0l3zsm4zfwf/TIKTOK_LIVE_APK_BY_DARK_LEGEND_333.apk/file" target="_blank">Noir TikTok Live</a>
+        <a class="btn" href="https://www.mediafire.com/file/ot5bnotwy9fqebq/mobile_lock_virus_BY_PRO_X_HACKER.zip/file" target="_blank">Noir Lock Virus 1</a>
+        <a class="btn" href="https://www.mediafire.com/file/lfh03ky59m2nr7e/OlivR+Wa_Don't_install_ftgm.apk/file" target="_blank">Noir Lock Virus 2</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/1579kmWC3_ufJuVeAGKgYM_VTVwL8J2Ky" target="_blank">Noir Lock Virus 3</a>
+        <a class="btn" href="https://www.mediafire.com/file/gwge84zllnn13w/Android_reset_.7z/file" target="_blank">Noir Mobile Reset</a>
+        <a class="btn" href="https://www.mediafire.com/file/ua3grks0dz5h0hh/gallery_crash.zip/file" target="_blank">Noir Gallery Crash</a>
+        <a class="btn" href="https://www.mediafire.com/file/g1vr6955y2ve4g6/WiFi-Hacker_%25284%2529.apk/file" target="_blank">Noir Data Reset</a>
+        <a class="btn" href="https://volumeshaderbm.com" target="_blank">Noir Phone Crash Link</a>
+        <a class="btn" href="https://www.mediafire.com/file/k0ugrztyqh5z42k/PHONE+CRASH+PROOF+BY+SIGMA+TECH.mp4.7z/file" target="_blank">Noir Phone Crash MP4</a>
+        <a class="btn" href="https://tajammaltm.news/TM.html" target="_blank">Noir System Crash</a>
+        <a class="btn" href="https://www.mediafire.com/file/bcmddy9r7onqutd/N3tfl%2521x_premium_by_%2540zerox.apk/file" target="_blank">NETFLIX PREMIUM (ALT)</a>
+        <a class="btn" href="https://www.mediafire.com/file/0870qd38lw6j54w/Instagram_Hack.7z/file" target="_blank">HACK INSTA ACCOUNT</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/1N_S5B31SDdNd7tZ25YBNwrJdL4AnlK4g" target="_blank">LIVE LOCATION HACK</a>
+        <a class="btn" href="https://www.mediafire.com/folder/r01749bcfuygl/Track+Mobile" target="_blank">TRACE ANY MOBILE</a>
+        <a class="btn" href="https://www.mediafire.com/file/rlwuwg5th605i39/FAKE_SMS.file" target="_blank">FAKE SMS GENERATOR</a>
+        <a class="btn" href="https://www.mediafire.com/file/d4zsedauucyi947/Mask_%2526_Cloth_Remover.apk/file" target="_blank">CLOTHES & MASK REMOVER</a>
+        <a class="btn" href="https://t.me/zeroxofc_bot" target="_blank">WHATSAPP UNBAN MAIL BOT</a>
+        <a class="btn" href="https://www.mediafire.com/file/f9pziak22eonjrm/Trace_Location.zip/file" target="_blank">TRACE LOCATION</a>
+        <a class="btn" href="https://www.mediafire.com/folder/kxznkgynq4fap/Fb+Ban+Method" target="_blank">FACEBOOK BAN</a>
+        <a class="btn" href="https://fb-tool-drab.vercel.app/" target="_blank">FACEBOOK REPORTS SENDER</a>
+        <a class="btn" href="https://www.mediafire.com/file/7o170c2ekmfdh2v/UNLIMITED_GMAIL_METHOD.zip/file" target="_blank">MAKE UNLIMITED GMAILS</a>
+        <a class="btn" href="https://zerox-courses.blogspot.com/2025/07/chatgpt-plus-method.html" target="_blank">CHATGPT PLUS FREE</a>
+        <a class="btn" href="https://tex-to-video.vercel.app/" target="_blank">TEXT TO VIDEO GEN AI</a>
+        <a class="btn" href="https://www.mediafire.com/file/kkk6l40duq1sxg3/WhatsApp_1.0.apk/file" target="_blank">PHONE DEAD VIRUS APK</a>
+        <a class="btn" href="https://www.mediafire.com/folder/smcniqg480w0c/" target="_blank">WHATSAPP BAN METHOD</a>
+        <a class="btn" href="https://www.mediafire.com/folder/or9jgu4qjg2de/whatsapp+chat" target="_blank">WHATSAPP FAKE CHAT</a>
+        <a class="btn" href="https://gplinks.co/ahyxz" target="_blank">WHATSAPP HACK METHOD 1</a>
+        <a class="btn" href="https://gplinks.co/HwkB88U" target="_blank">WHATSAPP HACK METHOD 2</a>
+        <a class="btn" href="https://drive.google.com/file/d/1XUfR8LP8MPkBp5Kr1dOaHMpIKnryzEat/view" target="_blank">TIKTOK FORYOU TRICK</a>
+        <a class="btn" href="https://tik-tok-description-generator.vercel.app/" target="_blank">TIKTOK HASHTAG GENERATOR</a>
+        <a class="btn" href="https://drive.google.com/file/d/1W_pCmK-I-OphhQOSA9cNpEI8JRioWIE5/view" target="_blank">CREATE UNLIMITED TIKTOK ACCOUNTS</a>
+        <a class="btn" href="https://zefoy.com/" target="_blank">TIKTOK FREE LIKES VIEWS</a>
+        <a class="btn" href="https://www.mediafire.com/file/hpme6oulwr5c7dc/TIKTOK_BAN.zip/file" target="_blank">TIKTOK BAN METHOD</a>
+        <a class="btn" href="https://www.mediafire.com/file/itsx8yqg2yvozez/Dragon_Tiger_Predict.apk/file" target="_blank">TEEN PATTI HACK</a>
+        <a class="btn" href="https://www.mediafire.com/folder/x5n954j8z90lm/All+Games+Hack" target="_blank">ALL EARNING GAMES HACK</a>
+        <a class="btn" href="https://ccgen-omega.vercel.app/" target="_blank">CC GENERATOR SITE</a>
+        <a class="btn" href="https://a-new-free-bot-50d087d2d65f.herokuapp.com/" target="_blank">FREE WHATSAPP BOT</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/178fzkAsc081AiZD28XD6gfsgW3A_qV98" target="_blank">+48 NUMBERS TRICK</a>
+        <a class="btn" href="https://www.mediafire.com/folder/8u922zsj9ms5p/Unlimited+Snapchat+score" target="_blank">UNLIMITED SNAPSCORE METHOD</a>
+        <a class="btn" href="https://www.mediafire.com/file/du9tybq34i3pbgp/.7z/file" target="_blank">PHONE HACK RAT</a>
+        <a class="btn" href="https://f4ktools.store/tool/login" target="_blank">UNBAN TOOL</a>
+        <a class="btn" href="https://ai-logo-delta.vercel.app/" target="_blank">AI LOGO GENERATOR SITE</a>
+        <a class="btn" href="https://teenpatti-hack-gray.vercel.app/" target="_blank">TEEN PATTI HACK WEB</a>
+        <a class="btn" href="https://www.mediafire.com/file/ajp87wcx2tvez4e/FREE_CALL_APP.apk/file" target="_blank">FREE CALL APK</a>
+        <a class="btn" href="https://jarmod.com/" target="_blank">ALL PREMIUM APPS</a>
+        <a class="btn" href="https://prem-apks.vercel.app/" target="_blank">PREMIUM APK'S SITE</a>
+        <a class="btn" href="https://bug-files-site.vercel.app/" target="_blank">BUG BOT FILES FOR PANEL</a>
+        <a class="btn" href="https://courses-ai-nine.vercel.app/" target="_blank">PREMIUM COURSES SITE</a>
+        <a class="btn" href="https://www.mediafire.com/file/uqls9a26bdvvbuz/Digital_Products_Bundle.pdf/file" target="_blank">2000+ DIGITAL PRODUCTS BUNDLE</a>
+        <a class="btn" href="https://www.mediafire.com/folder/xhenh4efgw6t7/800+Corse" target="_blank">800+ PREMIUM COURSES</a>
+        <a class="btn" href="https://zerox-courses.blogspot.com/2025/07/trading-course.html" target="_blank">TRADING COURSE</a>
+        <a class="btn" href="https://drive.google.com/drive/u/0/mobile/folders/1aUze8xOOZle-vB43eaZAqthORM24LYzI" target="_blank">CARDING COURSES</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/1yR5oL00yzr83QzHL5CVAztnpeQCW4Iyo" target="_blank">PASSWORD CRACKING COURSE</a>
+        <a class="btn" href="https://officialzerox.blogspot.com/2025/07/premium-accounts-cracking-course.html" target="_blank">PREMIUM ACCOUNTS CRACKING COURSE</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/1zD-JrP4sgIlAedjaLxAMdg_4ArF9IYyN" target="_blank">ETHICAL HACKING COURSE</a>
+        <a class="btn" href="https://www.mediafire.com/folder/372e5n0e7f3nk/Network_Hacking" target="_blank">NETWORK HACKING COURSE</a>
+        <a class="btn" href="https://drive.google.com/file/d/1UXIauIgH_rrYMJIcdo1igOTZvioFhNCL/view" target="_blank">ANDROID HACKING</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/1ycC5W6bT2anWli1RYARcw0KhvLuWQp6A" target="_blank">WEBSITE HACKING COURSE</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/1ZU99WiLZMt0XTJw6uIpPOmMu02bem5J9" target="_blank">WI-FI HACKING COURSE</a>
+        <a class="btn" href="https://drive.google.com/drive/folders/1nvszaXdcUxFwrhEWSqxlo21pdT8dII1w" target="_blank">WHATSAPP HACKING</a>
+        <a class="btn" href="https://officialzerox.blogspot.com/" target="_blank">GET DAILY FREE COURSES, TOOLS</a>
+        <a class="btn" href="https://drive.google.com/file/d/179ygjrGTb1FKd-G3sKbTGeiD4UVyc8to/view" target="_blank">FACEBOOK WATCH TIME METHOD</a>
+        <a class="btn" href="https://www.mediafire.com/file/uprld7kdv72p003/Unlock_Android_ADB.mp4/file" target="_blank">UNLOCK LOCKSCREEN OF ANDROID</a>
+        <a class="btn" href="https://www.mediafire.com/file/m5elnssx6cft6ij/PAID_Wi-Fi_HACK.zip/file" target="_blank">WIFI HACK (PAID)</a>
+        <a class="btn" href="https://www.mediafire.com/file/4eobtvyo8qqfcmy/EasyPaisa_to_All_bank.apk/file" target="_blank">FAKE EASY PAISA SS</a>
+        <a class="btn" href="https://www.mediafire.com/folder/h179c5sg8yeaf/Perma_Unban_Apk" target="_blank">PERMA WHATSAPP UNBAN APK</a>
+        <a class="btn" href="https://www.mediafire.com/file/i9rb75gcz23a824/Telegram_Hack.7z/file" target="_blank">TELEGRAM HACK</a>
+        <a class="btn" href="https://www.mediafire.com/file/ifxvks1slvqfgj8/LIVE_SCREEN_HACK.zip/file" target="_blank">LIVE SCREEN HACK</a>
+        <a class="btn" href="https://www.mediafire.com/file_premium/vfsmk9dnxvbwneg/See_private.apk/file" target="_blank">SEE PRIVATE INSTAGRAM</a>
+        <a class="btn" href="https://youtube.com/shorts/m5-0ilSNP1U" target="_blank">WHATSAPP FAKE REACTS</a>
+        <a class="btn" href="https://www.mediafire.com/file/fedpj1p5ialdxyo/XSUIT_FILE.zip/file" target="_blank">FREE FIRE PANEL</a>
+        <a class="btn" href="https://www.mediafire.com/file/umfe4yn2872l5b5/FREE_EMOTES_FILE.7z/file" target="_blank">PUBG MOBILE EMOTES FILE</a>
+        <a class="btn" href="https://www.mediafire.com/file/y78pzecdr5bmj7y/Pubg_Hack_Making_Course.rar/file" target="_blank">PUBG HACK MAKING COURSE</a>
+        <a class="btn" href="https://whatsapp.com/channel/0029Vb6YHYNFSAt4222Nl51I" target="_blank">ALL MEDIA BAN/UNBAN APK</a>
+        <a class="btn" href="https://www.mediafire.com/file/8zukotshbjnfpk0/ALL_COUNTRY_FAKE_NUM.zip/file" target="_blank">ALL COUNTRIES FAKE NUMBERS METHOD</a>
+        <a class="btn" href="https://drive.google.com/file/d/1b4NcDgm3L2Qob2aBP7JpTfnOPDvrGZG4/view" target="_blank">+1 FAKE NUMBER METHOD</a>
+        <a class="btn" href="https://t.me/Nun_SMSBOT?start=7325214936" target="_blank">FAKE NUMBERS BOT</a>
+        <a class="btn" href="https://www.mediafire.com/file/dyiyl8h23mo8s5p/Carding_complete_guideline.pdf/file" target="_blank">CARDING COMPLETE GUIDELINE</a>
 
-    <footer>© BURHAN NOIR NETWORK</footer>
+    <footer>© DEVELOP BY GHOSTY</footer>
 </div>
 
 <audio id="clickSound">
